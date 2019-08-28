@@ -1,0 +1,9 @@
+/makefile
+/objects.list
+/objects.mk
+/sources.mk
+/src/
+/startup/
+/CMSIS/
+/StdPeriph_Driver/
+/Third-Party/

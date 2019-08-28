@@ -15,7 +15,7 @@ startup/%.o: ../startup/%.s
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Assembler'
 	@echo $(PWD)
-	arm-none-eabi-as -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -I"/home/dell/Documents/RTOS_Workspace/HELLOOO_wOOORLD/StdPeriph_Driver/inc" -I"/home/dell/Documents/RTOS_Workspace/HELLOOO_wOOORLD/inc" -I"/home/dell/Documents/RTOS_Workspace/HELLOOO_wOOORLD/CMSIS/device" -I"/home/dell/Documents/RTOS_Workspace/HELLOOO_wOOORLD/CMSIS/core" -g -o "$@" "$<"
+	arm-none-eabi-as -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -I"/home/dell/Documents/RTOS/HELLOOO_wOOORLD/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM3" -I"/home/dell/Documents/RTOS/HELLOOO_wOOORLD/config" -I"/home/dell/Documents/RTOS/HELLOOO_wOOORLD/StdPeriph_Driver/inc" -I"/home/dell/Documents/RTOS/HELLOOO_wOOORLD/inc" -I"/home/dell/Documents/RTOS/HELLOOO_wOOORLD/CMSIS/device" -I"/home/dell/Documents/RTOS/HELLOOO_wOOORLD/CMSIS/core" -I"/home/dell/Documents/RTOS/HELLOOO_wOOORLD/Third-Party/FreeRTOS/org/Source/include" -g -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

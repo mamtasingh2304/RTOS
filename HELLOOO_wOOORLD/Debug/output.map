@@ -123,7 +123,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a CMSIS/core/core_cm3.o
  .debug_macro   0x0000000000000000      0x1df CMSIS/core/core_cm3.o
  .debug_line    0x0000000000000000      0x490 CMSIS/core/core_cm3.o
- .debug_str     0x0000000000000000     0x3d98 CMSIS/core/core_cm3.o
+ .debug_str     0x0000000000000000     0x3d8e CMSIS/core/core_cm3.o
  .comment       0x0000000000000000       0x80 CMSIS/core/core_cm3.o
  .debug_frame   0x0000000000000000      0x320 CMSIS/core/core_cm3.o
  .ARM.attributes
@@ -215,8 +215,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x34 StdPeriph_Driver/src/misc.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/misc.o
  .debug_macro   0x0000000000000000       0x85 StdPeriph_Driver/src/misc.o
- .debug_line    0x0000000000000000      0x626 StdPeriph_Driver/src/misc.o
- .debug_str     0x0000000000000000    0x4d441 StdPeriph_Driver/src/misc.o
+ .debug_line    0x0000000000000000      0x608 StdPeriph_Driver/src/misc.o
+ .debug_str     0x0000000000000000    0x4d437 StdPeriph_Driver/src/misc.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/misc.o
  .debug_frame   0x0000000000000000       0xd8 StdPeriph_Driver/src/misc.o
  .ARM.attributes
@@ -369,8 +369,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_adc.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_adc.o
  .debug_macro   0x0000000000000000      0x2df StdPeriph_Driver/src/stm32f10x_adc.o
- .debug_line    0x0000000000000000      0x912 StdPeriph_Driver/src/stm32f10x_adc.o
- .debug_str     0x0000000000000000    0x4dd95 StdPeriph_Driver/src/stm32f10x_adc.o
+ .debug_line    0x0000000000000000      0x8f4 StdPeriph_Driver/src/stm32f10x_adc.o
+ .debug_str     0x0000000000000000    0x4dd8b StdPeriph_Driver/src/stm32f10x_adc.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_adc.o
  .debug_frame   0x0000000000000000      0x5a4 StdPeriph_Driver/src/stm32f10x_adc.o
  .ARM.attributes
@@ -476,8 +476,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_bkp.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_bkp.o
  .debug_macro   0x0000000000000000      0x13e StdPeriph_Driver/src/stm32f10x_bkp.o
- .debug_line    0x0000000000000000      0x6a3 StdPeriph_Driver/src/stm32f10x_bkp.o
- .debug_str     0x0000000000000000    0x4d874 StdPeriph_Driver/src/stm32f10x_bkp.o
+ .debug_line    0x0000000000000000      0x685 StdPeriph_Driver/src/stm32f10x_bkp.o
+ .debug_str     0x0000000000000000    0x4d86a StdPeriph_Driver/src/stm32f10x_bkp.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_bkp.o
  .debug_frame   0x0000000000000000      0x1c4 StdPeriph_Driver/src/stm32f10x_bkp.o
  .ARM.attributes
@@ -609,8 +609,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_can.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_can.o
  .debug_macro   0x0000000000000000      0x3c9 StdPeriph_Driver/src/stm32f10x_can.o
- .debug_line    0x0000000000000000      0x944 StdPeriph_Driver/src/stm32f10x_can.o
- .debug_str     0x0000000000000000    0x4d979 StdPeriph_Driver/src/stm32f10x_can.o
+ .debug_line    0x0000000000000000      0x926 StdPeriph_Driver/src/stm32f10x_can.o
+ .debug_str     0x0000000000000000    0x4d96f StdPeriph_Driver/src/stm32f10x_can.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_can.o
  .debug_frame   0x0000000000000000      0x3f4 StdPeriph_Driver/src/stm32f10x_can.o
  .ARM.attributes
@@ -719,8 +719,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_cec.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_cec.o
  .debug_macro   0x0000000000000000       0xc2 StdPeriph_Driver/src/stm32f10x_cec.o
- .debug_line    0x0000000000000000      0x6e3 StdPeriph_Driver/src/stm32f10x_cec.o
- .debug_str     0x0000000000000000    0x4d5e1 StdPeriph_Driver/src/stm32f10x_cec.o
+ .debug_line    0x0000000000000000      0x6c5 StdPeriph_Driver/src/stm32f10x_cec.o
+ .debug_str     0x0000000000000000    0x4d5d7 StdPeriph_Driver/src/stm32f10x_cec.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_cec.o
  .debug_frame   0x0000000000000000      0x224 StdPeriph_Driver/src/stm32f10x_cec.o
  .ARM.attributes
@@ -814,8 +814,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x34 StdPeriph_Driver/src/stm32f10x_crc.o
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_crc.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_crc.o
- .debug_line    0x0000000000000000      0x63c StdPeriph_Driver/src/stm32f10x_crc.o
- .debug_str     0x0000000000000000    0x4d29a StdPeriph_Driver/src/stm32f10x_crc.o
+ .debug_line    0x0000000000000000      0x61e StdPeriph_Driver/src/stm32f10x_crc.o
+ .debug_str     0x0000000000000000    0x4d290 StdPeriph_Driver/src/stm32f10x_crc.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_crc.o
  .debug_frame   0x0000000000000000       0xe8 StdPeriph_Driver/src/stm32f10x_crc.o
  .ARM.attributes
@@ -920,8 +920,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_dac.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_dac.o
  .debug_macro   0x0000000000000000      0x174 StdPeriph_Driver/src/stm32f10x_dac.o
- .debug_line    0x0000000000000000      0x6bf StdPeriph_Driver/src/stm32f10x_dac.o
- .debug_str     0x0000000000000000    0x4d517 StdPeriph_Driver/src/stm32f10x_dac.o
+ .debug_line    0x0000000000000000      0x6a1 StdPeriph_Driver/src/stm32f10x_dac.o
+ .debug_str     0x0000000000000000    0x4d50d StdPeriph_Driver/src/stm32f10x_dac.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_dac.o
  .debug_frame   0x0000000000000000      0x1e4 StdPeriph_Driver/src/stm32f10x_dac.o
  .ARM.attributes
@@ -1009,8 +1009,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_dbgmcu.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_dbgmcu.o
  .debug_macro   0x0000000000000000       0xa6 StdPeriph_Driver/src/stm32f10x_dbgmcu.o
- .debug_line    0x0000000000000000      0x5f8 StdPeriph_Driver/src/stm32f10x_dbgmcu.o
- .debug_str     0x0000000000000000    0x4d27a StdPeriph_Driver/src/stm32f10x_dbgmcu.o
+ .debug_line    0x0000000000000000      0x5da StdPeriph_Driver/src/stm32f10x_dbgmcu.o
+ .debug_str     0x0000000000000000    0x4d270 StdPeriph_Driver/src/stm32f10x_dbgmcu.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_dbgmcu.o
  .debug_frame   0x0000000000000000       0x78 StdPeriph_Driver/src/stm32f10x_dbgmcu.o
  .ARM.attributes
@@ -1113,8 +1113,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_dma.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_dma.o
  .debug_macro   0x0000000000000000      0x3a7 StdPeriph_Driver/src/stm32f10x_dma.o
- .debug_line    0x0000000000000000      0x710 StdPeriph_Driver/src/stm32f10x_dma.o
- .debug_str     0x0000000000000000    0x4d8e9 StdPeriph_Driver/src/stm32f10x_dma.o
+ .debug_line    0x0000000000000000      0x6f2 StdPeriph_Driver/src/stm32f10x_dma.o
+ .debug_str     0x0000000000000000    0x4d8df StdPeriph_Driver/src/stm32f10x_dma.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_dma.o
  .debug_frame   0x0000000000000000      0x1c8 StdPeriph_Driver/src/stm32f10x_dma.o
  .ARM.attributes
@@ -1212,8 +1212,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_exti.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_exti.o
  .debug_macro   0x0000000000000000       0x94 StdPeriph_Driver/src/stm32f10x_exti.o
- .debug_line    0x0000000000000000      0x67d StdPeriph_Driver/src/stm32f10x_exti.o
- .debug_str     0x0000000000000000    0x4d3ca StdPeriph_Driver/src/stm32f10x_exti.o
+ .debug_line    0x0000000000000000      0x65f StdPeriph_Driver/src/stm32f10x_exti.o
+ .debug_str     0x0000000000000000    0x4d3c0 StdPeriph_Driver/src/stm32f10x_exti.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_exti.o
  .debug_frame   0x0000000000000000      0x148 StdPeriph_Driver/src/stm32f10x_exti.o
  .ARM.attributes
@@ -1351,8 +1351,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_flash.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_flash.o
  .debug_macro   0x0000000000000000      0x2c9 StdPeriph_Driver/src/stm32f10x_flash.o
- .debug_line    0x0000000000000000      0x8a2 StdPeriph_Driver/src/stm32f10x_flash.o
- .debug_str     0x0000000000000000    0x4da2b StdPeriph_Driver/src/stm32f10x_flash.o
+ .debug_line    0x0000000000000000      0x884 StdPeriph_Driver/src/stm32f10x_flash.o
+ .debug_str     0x0000000000000000    0x4da21 StdPeriph_Driver/src/stm32f10x_flash.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_flash.o
  .debug_frame   0x0000000000000000      0x410 StdPeriph_Driver/src/stm32f10x_flash.o
  .ARM.attributes
@@ -1472,8 +1472,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_fsmc.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_fsmc.o
  .debug_macro   0x0000000000000000      0x273 StdPeriph_Driver/src/stm32f10x_fsmc.o
- .debug_line    0x0000000000000000      0x873 StdPeriph_Driver/src/stm32f10x_fsmc.o
- .debug_str     0x0000000000000000    0x4d90e StdPeriph_Driver/src/stm32f10x_fsmc.o
+ .debug_line    0x0000000000000000      0x855 StdPeriph_Driver/src/stm32f10x_fsmc.o
+ .debug_str     0x0000000000000000    0x4d904 StdPeriph_Driver/src/stm32f10x_fsmc.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_fsmc.o
  .debug_frame   0x0000000000000000      0x300 StdPeriph_Driver/src/stm32f10x_fsmc.o
  .ARM.attributes
@@ -1724,8 +1724,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_i2c.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_i2c.o
  .debug_macro   0x0000000000000000      0x2ab StdPeriph_Driver/src/stm32f10x_i2c.o
- .debug_line    0x0000000000000000      0x8aa StdPeriph_Driver/src/stm32f10x_i2c.o
- .debug_str     0x0000000000000000    0x4db5b StdPeriph_Driver/src/stm32f10x_i2c.o
+ .debug_line    0x0000000000000000      0x88c StdPeriph_Driver/src/stm32f10x_i2c.o
+ .debug_str     0x0000000000000000    0x4db51 StdPeriph_Driver/src/stm32f10x_i2c.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_i2c.o
  .debug_frame   0x0000000000000000      0x530 StdPeriph_Driver/src/stm32f10x_i2c.o
  .ARM.attributes
@@ -1819,8 +1819,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_iwdg.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_iwdg.o
  .debug_macro   0x0000000000000000       0x5e StdPeriph_Driver/src/stm32f10x_iwdg.o
- .debug_line    0x0000000000000000      0x62d StdPeriph_Driver/src/stm32f10x_iwdg.o
- .debug_str     0x0000000000000000    0x4d2fd StdPeriph_Driver/src/stm32f10x_iwdg.o
+ .debug_line    0x0000000000000000      0x60f StdPeriph_Driver/src/stm32f10x_iwdg.o
+ .debug_str     0x0000000000000000    0x4d2f3 StdPeriph_Driver/src/stm32f10x_iwdg.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_iwdg.o
  .debug_frame   0x0000000000000000       0xf0 StdPeriph_Driver/src/stm32f10x_iwdg.o
  .ARM.attributes
@@ -1922,8 +1922,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_pwr.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_pwr.o
  .debug_macro   0x0000000000000000       0x7c StdPeriph_Driver/src/stm32f10x_pwr.o
- .debug_line    0x0000000000000000      0x6a7 StdPeriph_Driver/src/stm32f10x_pwr.o
- .debug_str     0x0000000000000000    0x4d524 StdPeriph_Driver/src/stm32f10x_pwr.o
+ .debug_line    0x0000000000000000      0x689 StdPeriph_Driver/src/stm32f10x_pwr.o
+ .debug_str     0x0000000000000000    0x4d51a StdPeriph_Driver/src/stm32f10x_pwr.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_pwr.o
  .debug_frame   0x0000000000000000      0x19c StdPeriph_Driver/src/stm32f10x_pwr.o
  .ARM.attributes
@@ -2160,8 +2160,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_rtc.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_rtc.o
  .debug_macro   0x0000000000000000       0x52 StdPeriph_Driver/src/stm32f10x_rtc.o
- .debug_line    0x0000000000000000      0x6e8 StdPeriph_Driver/src/stm32f10x_rtc.o
- .debug_str     0x0000000000000000    0x4d44a StdPeriph_Driver/src/stm32f10x_rtc.o
+ .debug_line    0x0000000000000000      0x6ca StdPeriph_Driver/src/stm32f10x_rtc.o
+ .debug_str     0x0000000000000000    0x4d440 StdPeriph_Driver/src/stm32f10x_rtc.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_rtc.o
  .debug_frame   0x0000000000000000      0x214 StdPeriph_Driver/src/stm32f10x_rtc.o
  .ARM.attributes
@@ -2303,8 +2303,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_sdio.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_sdio.o
  .debug_macro   0x0000000000000000      0x33b StdPeriph_Driver/src/stm32f10x_sdio.o
- .debug_line    0x0000000000000000      0x81d StdPeriph_Driver/src/stm32f10x_sdio.o
- .debug_str     0x0000000000000000    0x4dbe0 StdPeriph_Driver/src/stm32f10x_sdio.o
+ .debug_line    0x0000000000000000      0x7ff StdPeriph_Driver/src/stm32f10x_sdio.o
+ .debug_str     0x0000000000000000    0x4dbd6 StdPeriph_Driver/src/stm32f10x_sdio.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_sdio.o
  .debug_frame   0x0000000000000000      0x490 StdPeriph_Driver/src/stm32f10x_sdio.o
  .ARM.attributes
@@ -2430,8 +2430,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_spi.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_spi.o
  .debug_macro   0x0000000000000000      0x2be StdPeriph_Driver/src/stm32f10x_spi.o
- .debug_line    0x0000000000000000      0x7f2 StdPeriph_Driver/src/stm32f10x_spi.o
- .debug_str     0x0000000000000000    0x4d8b9 StdPeriph_Driver/src/stm32f10x_spi.o
+ .debug_line    0x0000000000000000      0x7d4 StdPeriph_Driver/src/stm32f10x_spi.o
+ .debug_str     0x0000000000000000    0x4d8af StdPeriph_Driver/src/stm32f10x_spi.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_spi.o
  .debug_frame   0x0000000000000000      0x3a0 StdPeriph_Driver/src/stm32f10x_spi.o
  .ARM.attributes
@@ -2694,8 +2694,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_tim.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_tim.o
  .debug_macro   0x0000000000000000      0x70b StdPeriph_Driver/src/stm32f10x_tim.o
- .debug_line    0x0000000000000000      0xf28 StdPeriph_Driver/src/stm32f10x_tim.o
- .debug_str     0x0000000000000000    0x4debd StdPeriph_Driver/src/stm32f10x_tim.o
+ .debug_line    0x0000000000000000      0xf0a StdPeriph_Driver/src/stm32f10x_tim.o
+ .debug_str     0x0000000000000000    0x4deb3 StdPeriph_Driver/src/stm32f10x_tim.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_tim.o
  .debug_frame   0x0000000000000000      0xe2c StdPeriph_Driver/src/stm32f10x_tim.o
  .ARM.attributes
@@ -2913,8 +2913,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8b StdPeriph_Driver/src/stm32f10x_wwdg.o
  .debug_macro   0x0000000000000000       0x35 StdPeriph_Driver/src/stm32f10x_wwdg.o
  .debug_macro   0x0000000000000000       0x2e StdPeriph_Driver/src/stm32f10x_wwdg.o
- .debug_line    0x0000000000000000      0x654 StdPeriph_Driver/src/stm32f10x_wwdg.o
- .debug_str     0x0000000000000000    0x4d3df StdPeriph_Driver/src/stm32f10x_wwdg.o
+ .debug_line    0x0000000000000000      0x636 StdPeriph_Driver/src/stm32f10x_wwdg.o
+ .debug_str     0x0000000000000000    0x4d3d5 StdPeriph_Driver/src/stm32f10x_wwdg.o
  .comment       0x0000000000000000       0x80 StdPeriph_Driver/src/stm32f10x_wwdg.o
  .debug_frame   0x0000000000000000      0x12c StdPeriph_Driver/src/stm32f10x_wwdg.o
  .ARM.attributes
@@ -2961,8 +2961,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 Third-Party/FreeRTOS/org/Source/croutine.o
  .debug_macro   0x0000000000000000       0x8c Third-Party/FreeRTOS/org/Source/croutine.o
  .debug_macro   0x0000000000000000       0x43 Third-Party/FreeRTOS/org/Source/croutine.o
- .debug_line    0x0000000000000000      0x4a2 Third-Party/FreeRTOS/org/Source/croutine.o
- .debug_str     0x0000000000000000     0x7eb6 Third-Party/FreeRTOS/org/Source/croutine.o
+ .debug_line    0x0000000000000000      0x484 Third-Party/FreeRTOS/org/Source/croutine.o
+ .debug_str     0x0000000000000000     0x7eac Third-Party/FreeRTOS/org/Source/croutine.o
  .comment       0x0000000000000000       0x80 Third-Party/FreeRTOS/org/Source/croutine.o
  .ARM.attributes
                 0x0000000000000000       0x33 Third-Party/FreeRTOS/org/Source/croutine.o
@@ -3059,8 +3059,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8c Third-Party/FreeRTOS/org/Source/event_groups.o
  .debug_macro   0x0000000000000000       0x91 Third-Party/FreeRTOS/org/Source/event_groups.o
  .debug_macro   0x0000000000000000       0x19 Third-Party/FreeRTOS/org/Source/event_groups.o
- .debug_line    0x0000000000000000      0x69d Third-Party/FreeRTOS/org/Source/event_groups.o
- .debug_str     0x0000000000000000     0xb348 Third-Party/FreeRTOS/org/Source/event_groups.o
+ .debug_line    0x0000000000000000      0x67f Third-Party/FreeRTOS/org/Source/event_groups.o
+ .debug_str     0x0000000000000000     0xb33e Third-Party/FreeRTOS/org/Source/event_groups.o
  .comment       0x0000000000000000       0x80 Third-Party/FreeRTOS/org/Source/event_groups.o
  .debug_frame   0x0000000000000000      0x180 Third-Party/FreeRTOS/org/Source/event_groups.o
  .ARM.attributes
@@ -3247,8 +3247,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 Third-Party/FreeRTOS/org/Source/queue.o
  .debug_macro   0x0000000000000000       0x8c Third-Party/FreeRTOS/org/Source/queue.o
  .debug_macro   0x0000000000000000       0x80 Third-Party/FreeRTOS/org/Source/queue.o
- .debug_line    0x0000000000000000      0x93e Third-Party/FreeRTOS/org/Source/queue.o
- .debug_str     0x0000000000000000     0xb43e Third-Party/FreeRTOS/org/Source/queue.o
+ .debug_line    0x0000000000000000      0x920 Third-Party/FreeRTOS/org/Source/queue.o
+ .debug_str     0x0000000000000000     0xb434 Third-Party/FreeRTOS/org/Source/queue.o
  .comment       0x0000000000000000       0x80 Third-Party/FreeRTOS/org/Source/queue.o
  .debug_frame   0x0000000000000000      0x334 Third-Party/FreeRTOS/org/Source/queue.o
  .ARM.attributes
@@ -3362,8 +3362,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 Third-Party/FreeRTOS/org/Source/stream_buffer.o
  .debug_macro   0x0000000000000000       0x8c Third-Party/FreeRTOS/org/Source/stream_buffer.o
  .debug_macro   0x0000000000000000       0x18 Third-Party/FreeRTOS/org/Source/stream_buffer.o
- .debug_line    0x0000000000000000      0x82d Third-Party/FreeRTOS/org/Source/stream_buffer.o
- .debug_str     0x0000000000000000     0xb282 Third-Party/FreeRTOS/org/Source/stream_buffer.o
+ .debug_line    0x0000000000000000      0x80f Third-Party/FreeRTOS/org/Source/stream_buffer.o
+ .debug_str     0x0000000000000000     0xb278 Third-Party/FreeRTOS/org/Source/stream_buffer.o
  .comment       0x0000000000000000       0x80 Third-Party/FreeRTOS/org/Source/stream_buffer.o
  .debug_frame   0x0000000000000000      0x324 Third-Party/FreeRTOS/org/Source/stream_buffer.o
  .ARM.attributes
@@ -3571,8 +3571,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x8c Third-Party/FreeRTOS/org/Source/timers.o
  .debug_macro   0x0000000000000000       0x80 Third-Party/FreeRTOS/org/Source/timers.o
  .debug_macro   0x0000000000000000       0x97 Third-Party/FreeRTOS/org/Source/timers.o
- .debug_line    0x0000000000000000      0x534 Third-Party/FreeRTOS/org/Source/timers.o
- .debug_str     0x0000000000000000     0xb437 Third-Party/FreeRTOS/org/Source/timers.o
+ .debug_line    0x0000000000000000      0x516 Third-Party/FreeRTOS/org/Source/timers.o
+ .debug_str     0x0000000000000000     0xb42d Third-Party/FreeRTOS/org/Source/timers.o
  .comment       0x0000000000000000       0x80 Third-Party/FreeRTOS/org/Source/timers.o
  .ARM.attributes
                 0x0000000000000000       0x33 Third-Party/FreeRTOS/org/Source/timers.o
@@ -3924,7 +3924,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 src/syscalls.o
  .debug_macro   0x0000000000000000       0x88 src/syscalls.o
  .debug_line    0x0000000000000000      0x607 src/syscalls.o
- .debug_str     0x0000000000000000     0x857e src/syscalls.o
+ .debug_str     0x0000000000000000     0x8574 src/syscalls.o
  .comment       0x0000000000000000       0x80 src/syscalls.o
  .debug_frame   0x0000000000000000      0x2d0 src/syscalls.o
  .ARM.attributes
@@ -4661,39 +4661,39 @@ OUTPUT(HELLOOO_wOOORLD.elf elf32-littlearm)
  .debug_macro   0x0000000000001ddd      0x16f src/main.o
  .debug_macro   0x0000000000001f4c      0x188 src/system_stm32f10x.o
 
-.debug_line     0x0000000000000000     0x46d7
- .debug_line    0x0000000000000000      0x7a7 StdPeriph_Driver/src/stm32f10x_gpio.o
- .debug_line    0x00000000000007a7      0x8a3 StdPeriph_Driver/src/stm32f10x_rcc.o
- .debug_line    0x000000000000104a      0x875 StdPeriph_Driver/src/stm32f10x_usart.o
- .debug_line    0x00000000000018bf      0x595 Third-Party/FreeRTOS/org/Source/list.o
- .debug_line    0x0000000000001e54      0xc66 Third-Party/FreeRTOS/org/Source/tasks.o
- .debug_line    0x0000000000002aba      0x5cc Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM3/port.o
- .debug_line    0x0000000000003086      0x61c Third-Party/FreeRTOS/org/Source/portable/MemMang/heap_4.o
- .debug_line    0x00000000000036a2      0x95d src/main.o
- .debug_line    0x0000000000003fff      0x65c src/system_stm32f10x.o
- .debug_line    0x000000000000465b       0x7c startup/startup_stm32.o
+.debug_line     0x0000000000000000     0x45a1
+ .debug_line    0x0000000000000000      0x789 StdPeriph_Driver/src/stm32f10x_gpio.o
+ .debug_line    0x0000000000000789      0x885 StdPeriph_Driver/src/stm32f10x_rcc.o
+ .debug_line    0x000000000000100e      0x857 StdPeriph_Driver/src/stm32f10x_usart.o
+ .debug_line    0x0000000000001865      0x577 Third-Party/FreeRTOS/org/Source/list.o
+ .debug_line    0x0000000000001ddc      0xc48 Third-Party/FreeRTOS/org/Source/tasks.o
+ .debug_line    0x0000000000002a24      0x5ae Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM3/port.o
+ .debug_line    0x0000000000002fd2      0x5fe Third-Party/FreeRTOS/org/Source/portable/MemMang/heap_4.o
+ .debug_line    0x00000000000035d0      0x917 src/main.o
+ .debug_line    0x0000000000003ee7      0x63e src/system_stm32f10x.o
+ .debug_line    0x0000000000004525       0x7c startup/startup_stm32.o
 
-.debug_str      0x0000000000000000    0x589c0
- .debug_str     0x0000000000000000    0x4d639 StdPeriph_Driver/src/stm32f10x_gpio.o
-                                      0x4d7b9 (size before relaxing)
- .debug_str     0x000000000004d639      0xb59 StdPeriph_Driver/src/stm32f10x_rcc.o
-                                      0x4dd9f (size before relaxing)
- .debug_str     0x000000000004e192      0x82c StdPeriph_Driver/src/stm32f10x_usart.o
-                                      0x4dac9 (size before relaxing)
- .debug_str     0x000000000004e9be     0x63d7 Third-Party/FreeRTOS/org/Source/list.o
-                                       0xa0b7 (size before relaxing)
- .debug_str     0x0000000000054d95     0x1f8d Third-Party/FreeRTOS/org/Source/tasks.o
-                                       0xc036 (size before relaxing)
- .debug_str     0x0000000000056d22      0x61a Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM3/port.o
-                                       0x7f8e (size before relaxing)
- .debug_str     0x000000000005733c      0x252 Third-Party/FreeRTOS/org/Source/portable/MemMang/heap_4.o
-                                       0xa7bb (size before relaxing)
- .debug_str     0x000000000005758e     0x1311 src/main.o
-                                      0x54f35 (size before relaxing)
- .debug_str     0x000000000005889f       0xf8 src/system_stm32f10x.o
-                                      0x4d34d (size before relaxing)
- .debug_str     0x0000000000058997       0x29 startup/startup_stm32.o
-                                         0x63 (size before relaxing)
+.debug_str      0x0000000000000000    0x589b6
+ .debug_str     0x0000000000000000    0x4d62f StdPeriph_Driver/src/stm32f10x_gpio.o
+                                      0x4d7af (size before relaxing)
+ .debug_str     0x000000000004d62f      0xb59 StdPeriph_Driver/src/stm32f10x_rcc.o
+                                      0x4dd95 (size before relaxing)
+ .debug_str     0x000000000004e188      0x82c StdPeriph_Driver/src/stm32f10x_usart.o
+                                      0x4dabf (size before relaxing)
+ .debug_str     0x000000000004e9b4     0x63d7 Third-Party/FreeRTOS/org/Source/list.o
+                                       0xa0ad (size before relaxing)
+ .debug_str     0x0000000000054d8b     0x1f8d Third-Party/FreeRTOS/org/Source/tasks.o
+                                       0xc02c (size before relaxing)
+ .debug_str     0x0000000000056d18      0x61a Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM3/port.o
+                                       0x7f84 (size before relaxing)
+ .debug_str     0x0000000000057332      0x252 Third-Party/FreeRTOS/org/Source/portable/MemMang/heap_4.o
+                                       0xa7b1 (size before relaxing)
+ .debug_str     0x0000000000057584     0x1311 src/main.o
+                                      0x54f2b (size before relaxing)
+ .debug_str     0x0000000000058895       0xf8 src/system_stm32f10x.o
+                                      0x4d343 (size before relaxing)
+ .debug_str     0x000000000005898d       0x29 startup/startup_stm32.o
+                                         0x59 (size before relaxing)
 
 .comment        0x0000000000000000       0x7f
  .comment       0x0000000000000000       0x7f StdPeriph_Driver/src/stm32f10x_gpio.o
