@@ -20,6 +20,9 @@ StdPeriph_Driver/src \
 Third-Party/FreeRTOS/org/Source \
 Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM3 \
 Third-Party/FreeRTOS/org/Source/portable/MemMang \
+Third-Party/SEGGGER/Config \
+Third-Party/SEGGGER/OS \
+Third-Party/SEGGGER/SEGGER \
 src \
 startup \
 

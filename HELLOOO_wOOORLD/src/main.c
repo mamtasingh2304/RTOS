@@ -8,14 +8,16 @@
   ******************************************************************************
 */
 
-
-
 #include "stm32f10x.h"
 #include <stdio.h>
 #include <string.h>
 #include "stm32f10x_it.h"
 #include "FreeRTOS.h"
 #include "task.h"
+
+/*Private Definition */
+#define AVAILABLE 1
+#define NOT_AVAILABLE 0
 
 static void prvsetupHardware(void);
 void vTask1_handler(void *params);
@@ -30,7 +32,7 @@ TaskHandle_t xTaskHandle_2 = NULL;
 extern void initialise_monitor_handles();
 #endif
 
-
+uint8_t UART_periph;
 
 int main(void)
 {
@@ -54,9 +56,15 @@ int main(void)
 void vTask1_handler(void *params){
 
 while(1){
-	print_msg("print example code -task_1 \r\n");
-  // printf("print example code -task_1 \n");
+	if(UART_periph == AVAILABLE){
+				UART_periph = NOT_AVAILABLE;
 
+			print_msg("print example code -task_1\r\n");
+				UART_periph = AVAILABLE;
+				 taskYIELD();
+	   // printf("print example code -task_2 \n");
+
+		}
 }
 
 }
@@ -64,12 +72,18 @@ while(1){
 void vTask2_handler(void *params){
 
 	while(1){
+		if(UART_periph == AVAILABLE){
+			UART_periph = NOT_AVAILABLE;
+
 		print_msg("print example code -task_2\r\n");
+			UART_periph = AVAILABLE;
+			 taskYIELD();
    // printf("print example code -task_2 \n");
+
 	}
 
+   }
 }
-
 static void prvsetupHardware(){
 
 	 GPIO_InitTypeDef GPIO_InitStructure;
