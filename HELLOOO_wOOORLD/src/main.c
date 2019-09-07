@@ -17,6 +17,10 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
+/*Private Definition */
+#define AVAILABLE 1
+#define NOT_AVAILABLE 0
+
 static void prvsetupHardware(void);
 void vTask1_handler(void *params);
 void vTask2_handler(void *params);
@@ -30,7 +34,7 @@ TaskHandle_t xTaskHandle_2 = NULL;
 extern void initialise_monitor_handles();
 #endif
 
-
+uint8_t UART_periph;
 
 int main(void)
 {
@@ -40,6 +44,17 @@ int main(void)
 	printf("example code \n");
 #endif
 
+	volatile unsigned int *DWT_CYCCNT   = (volatile unsigned int *)0xE0001004; //address of the register
+	volatile unsigned int *DWT_CONTROL  = (volatile unsigned int *)0xE0001000; //address of the register
+	volatile unsigned int *DWT_LAR      = (volatile unsigned int *)0xE0001FB0; //address of the register
+	volatile unsigned int *SCB_DEMCR    = (volatile unsigned int *)0xE000EDFC; //address of the register
+
+
+
+	  *DWT_LAR = 0xC5ACCE55; // enable access
+	  *SCB_DEMCR |= 0x01000000;
+	  *DWT_CYCCNT = 0; // reset the counter
+	  *DWT_CONTROL |= 1 ; // enable the counter
 	RCC_DeInit();
 	SystemCoreClockUpdate ();
 	prvsetupHardware();
@@ -54,9 +69,15 @@ int main(void)
 void vTask1_handler(void *params){
 
 while(1){
-	print_msg("print example code -task_1 \r\n");
-  // printf("print example code -task_1 \n");
+	if(UART_periph == AVAILABLE){
+				UART_periph = NOT_AVAILABLE;
 
+			print_msg("print example code -task_1\r\n");
+				UART_periph = AVAILABLE;
+				 taskYIELD();
+	   // printf("print example code -task_2 \n");
+
+		}
 }
 
 }
@@ -64,12 +85,18 @@ while(1){
 void vTask2_handler(void *params){
 
 	while(1){
+		if(UART_periph == AVAILABLE){
+			UART_periph = NOT_AVAILABLE;
+
 		print_msg("print example code -task_2\r\n");
+			UART_periph = AVAILABLE;
+			 taskYIELD();
    // printf("print example code -task_2 \n");
+
 	}
 
+   }
 }
-
 static void prvsetupHardware(){
 
 	 GPIO_InitTypeDef GPIO_InitStructure;
