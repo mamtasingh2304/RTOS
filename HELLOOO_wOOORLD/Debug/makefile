@@ -38,10 +38,10 @@ endif
 all: HELLOOO_wOOORLD.elf
 
 # Tool invocations
-HELLOOO_wOOORLD.elf: $(OBJS) $(USER_OBJS) /home/dell/Documents/RTOS/HELLOOO_wOOORLD/LinkerScript.ld
+HELLOOO_wOOORLD.elf: $(OBJS) $(USER_OBJS) /home/dell/git/RTOS/RTOS/HELLOOO_wOOORLD/LinkerScript.ld
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU GCC Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"/home/dell/Documents/RTOS/HELLOOO_wOOORLD/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "HELLOOO_wOOORLD.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -mfloat-abi=soft -T"/home/dell/git/RTOS/RTOS/HELLOOO_wOOORLD/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "HELLOOO_wOOORLD.elf" @"objects.list" $(USER_OBJS) $(LIBS) -lm
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
