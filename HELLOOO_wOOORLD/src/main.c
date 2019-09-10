@@ -9,8 +9,8 @@
 */
 
 #include "stm32f10x.h"
-#include <stdio.h>
-#include <string.h>
+//#include <stdio.h>
+//#include <string.h>
 #include "stm32f10x_it.h"
 #include "FreeRTOS.h"
 #include "task.h"
@@ -69,21 +69,18 @@ void vTask1_handler(void *params){
 while(1){
 	if(UART_periph == AVAILABLE){
 				UART_periph = NOT_AVAILABLE;
-<<<<<<< HEAD
 
 			print_msg("print example code -task_1\r\n");
 				UART_periph = AVAILABLE;
 				 taskYIELD();
 	   // printf("print example code -task_2 \n");
 
-=======
 
 			print_msg("print example code -task_1\r\n");
 				UART_periph = AVAILABLE;
 				 taskYIELD();
 	   // printf("print example code -task_2 \n");
 
->>>>>>> 39b49cca547ef720b024d5de92a01eb90094f72c
 		}
 }
 
